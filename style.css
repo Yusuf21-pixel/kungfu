@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#c1,
+#c2 {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 0;
+  margin-top: 100px;
+  margin-left: 190px;
+  background-image: url(images/others/2.jpg);
+  background-size: 100% 100%;
+}
+
+body {
+  background-image: url("images/others/1.jpg");
+  background-size: auto;
+}
+
+.title {
+  color: #d6d6d6;
+  font-size: 8rem;
+  text-align: center;
+  font-family: "Dela Gothic One", cursive;
+  background-color: #292830;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+.extra-main-title {
+  position: absolute;
+  margin: 10px 0 0 27%;
+}
+
+.modes {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s; /* Animation */
+}
+
+.practice {
+  margin: 180px 0 0 70px;
+}
+
+.dragon {
+  float: right;
+  margin: 180px 70px 0 0;
+}
+
+.modes:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.lone {
+  margin-left: 340px;
+  margin-top: 20px;
+  max-width: fit-content;
+}
+
+.btns {
+  position: absolute;
+  left: 360px;
+}
+
+.btn {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 4rem;
+}
+
+.previous {
+  background-color: #242034;
+  color: white;
+  padding: 8px 20px;
+  margin: 120px 550px 20px 10px;
+  border: 2px solid white;
+}
+
+.previous:hover {
+  opacity: 0.7;
+}
+
+:is(#practice, #fight) {
+  display: none;
+}
+
+.fight {
+  margin-left: 300px;
+  margin-top: 20px;
+  position: absolute;
+  left: -80px;
+}
+
+#c2 {
+  margin-top: 130px;
+}
+
+.extra {
+  position: absolute;
+  left: 200px;
+}
+
+.progress {
+  width: 250px;
+}
+
+.human {
+  position: absolute;
+  top: 135px;
+  left: 200px;
+}
+
+.animal {
+  position: absolute;
+  top: 135px;
+  right: 190px;
+}
